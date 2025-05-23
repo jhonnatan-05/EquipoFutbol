@@ -1,0 +1,42 @@
+.mi-equipo-container {
+  padding: 20px;
+}
+
+.jugadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.jugador-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+.promedios {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.prom {
+  background: #dff0d8;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+
+.aviso {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fffae6;
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+}
+
+.puntaje {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
